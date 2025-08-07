@@ -16,7 +16,7 @@ html {
   position: absolute;
   top: 0; left: 0;
   width: 100%; height: 100%;
-  background-color: rgba(0, 0, 0, 0.4); /* soft overlay */
+  background-color: rgba(0, 0, 0, 0.4); 
   z-index: 1;
 }
 
@@ -42,7 +42,7 @@ html {
 }
 
 .Black-box {
-  background-color: #333333;  /* Dark background color */; 
+  background-color: #333333;  ; 
   padding: 40px;             
   max-width: 100%;          /*how do i make the black box fit the entire page horigontally?*/
  
@@ -58,16 +58,16 @@ html {
 
 .bottom-section {
   display: flex;
-  justify-content: space-between; /* creates even spacing between boxes */
+  justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap; /* allows wrapping on smaller screens */
+  flex-wrap: wrap;
   padding: 16px;
   gap: 12px;
 }
 
 .info-box {
-  flex: 1; /* each box takes equal width */
-  min-width: 100px; /* prevents them from shrinking too small */
+  flex: 1; =
+  min-width: 100px; 
   text-align: center;
   padding: 12px;
   background-color: #e8f0fe; 
@@ -75,3 +75,5 @@ html {
   border: 1px solid #ccc;
   font-weight: 500;
 }
+
+
