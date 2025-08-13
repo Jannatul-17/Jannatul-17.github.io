@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>War of 1971</title>
+  <!-- Bootstrap CSS link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Your CSS -->
+  <link rel="stylesheet" href="style.css" />
+  <!-- Your JS -->
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+
+      <!-- Toggler on the LEFT -->
+      <button class="navbar-toggler me-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Brand -->
+
+
+      <!-- Collapsible content -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <!-- Left nav items -->
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+
+
+        </ul>
+
+        <!-- Right-side search and link -->
+        <form class="d-flex align-items-center">
+
+          <button class="btn btn-outline-success" type="submit">🔍</button>
+          <a class="nav-link ms-3" href="#">About Us</a>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Image Banner -->
+  <section class="hero-banner d-flex align-items-center justify-content-center text-white text-center">
+    <h1 class="display-3 fw-bold">TIMELINE
+
+    </h1>
+
+
+
+  </section>
+  
+  <style>
+    
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f9f9f9;
+
+    }
+
+    h1 {
+      text-align: center;
+      color: #333333;
+      margin-bottom: 60px;
+    }
+
+    .timeline {
+      position: relative;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .timeline::after {
+      content: '';
+      position: absolute;
+      width: 4px;
+      background-color: #005640;
+      top: 0;
+      bottom: 0;
+      left: 50%;
+      margin-left: -2px;
+    }
+
+    .event {
+      padding: 20px 40px;
+      position: relative;
+      width: 50%;
+      box-sizing: border-box;
+    }
+
+    .event::before {
+      content: '';
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      right: -10px;
+      background-color: #006a4e;
+      border: 3px solid white;
+      top: 30px;
+      border-radius: 50%;
+      z-index: 1;
+    }
+
+    .left {
+      left: 0;
+      text-align: right;
+    }
+
+    .right {
+      left: 50%;
+      text-align: left;
+    }
+
+    .date {
+      font-weight: bold;
+      font-size: 1.1em;
+      color: #333;
+    }
+
+    .description {
+      margin-top: 10px;
+      color: #555;
+    }
+
+    @media screen and (max-width: 768px) {
+      .event {
+        width: 100%;
+        left: 0 !important;
+        text-align: left;
+        padding-left: 60px;
+      }
+
+      .timeline::after {
+        left: 30px;
+      }
+
+      .event::before {
+        left: 15px;
+      }
+    }
+  </style>
+  </head>
+
+  <body>
+
+    <div class="timeline">
+      <div class="event left">
+        <div class="date">March 25, 1971</div>
+        <div class="description">Operation Searchlight begins in East Pakistan, leading to crackdown on Bengali
+          population.</div>
+      </div>
+      <div class="event right">
+        <div class="date">March 26, 1971</div>
+        <div class="description">Sheikh Mujibur Rahman declares the independence of Bangladesh.</div>
+      </div>
+      <div class="event left">
+        <div class="date">April 1971</div>
+        <div class="description">Pakistani military operations intensify in East Pakistan.</div>
+      </div>
+      <div class="event right">
+        <div class="date">August 1971</div>
+        <div class="description">India and the Soviet Union sign a treaty of friendship and mutual assistance.</div>
+      </div>
+      <div class="event left">
+        <div class="date">November 22, 1971</div>
+        <div class="description">Battle of Garibpur: India captures the Boyra salient in East Pakistan.</div>
+      </div>
+      <div class="event right">
+        <div class="date">December 3, 1971</div>
+        <div class="description">Pakistani Air Force attacks Indian airfields, leading India to declare war.</div>
+      </div>
+      <div class="event left">
+        <div class="date">December 3–16, 1971</div>
+        <div class="description">Armed conflict occurs on both the eastern and western fronts.</div>
+      </div>
+      <div class="event right">
+        <div class="date">December 6, 1971</div>
+        <div class="description">Bhutan recognizes Bangladesh.</div>
+      </div>
+      <div class="event left">
+        <div class="date">December 16, 1971</div>
+        <div class="description">Pakistani forces in East Pakistan surrender, marking the creation of Bangladesh.</div>
+      </div>
+      <div class="event right">
+        <div class="date">December 16, 1971</div>
+        <div class="description">The war officially ends, with India achieving victory.</div>
+      </div>
+    </div>
+  </body>
+
+</html>
+
+<div> 
+    <footer class="bg-dark text-white text-center py-3">
+      <p>&copy; 2023 Bangladesh. All rights reserved.</p>
+    </footer>
+ </div>
+
+
+
+ .timeline-event .dot:active {
+   transform: scale(1.3);
+   background-color: #ffffff;
+
+ }
+
+ .footer::before {
+   padding: 20px ;
+ }
+
+ /* how do i add more space between the footer and the content? */ 
+ .footer {
+     margin-top: 100px; /* Add space above the footer */
+ }
