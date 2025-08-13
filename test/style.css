@@ -2,13 +2,8 @@ html {
   height: 100%;
   width: 100%;
 }
-@media screen and (max-width: 600px) {
-  .nav-links {
-    flex-direction: column;
-    width: 100%;
-    margin-top: 10px;
-  }
-}
+
+
 .hero-banner {
   background-image: url('https://t4.ftcdn.net/jpg/01/36/15/53/360_F_136155386_TLEQLB3GqiSSKDpjcdZqAjLYaxQPCvrV.jpg');
   background-size: cover;
