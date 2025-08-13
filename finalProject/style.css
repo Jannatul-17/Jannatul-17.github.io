@@ -3,6 +3,45 @@ html {
   width: 100%;
 }
 
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: #006a4e;
+  color: white;
+  flex-wrap: wrap;
+}
+
+.logo img {
+  height: 40px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.nav-links li {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links input {
+  padding: 5px;
+  border-radius: 4px;
+  border: none;
+}
+
+@media screen and (max-width: 600px) {
+  .nav-links {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
+  }
+}
 .hero-banner {
   background-image: url('https://t4.ftcdn.net/jpg/01/36/15/53/360_F_136155386_TLEQLB3GqiSSKDpjcdZqAjLYaxQPCvrV.jpg');
   background-size: cover;
