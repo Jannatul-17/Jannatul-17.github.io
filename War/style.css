@@ -50,7 +50,7 @@ html {
  
   margin: 20px auto;         
   font-family: 'Times New Roman', serif;
-  font-size: 25px;
+  font-size: 16px;
   line-height: 1.5;
   color: #ffffff;
 
@@ -104,8 +104,13 @@ html {
   text-decoration: underline;
 }
 
-@media (max-width: 600px) {
-  .bottom-section .container {
-    grid-template-columns: 1fr; /* stack in one column on small screens */
+@media (max-width: 600px){
+  .bottom-section .container{
+    grid-template-columns: 1fr; 
+
+ 
+    
+    /* stack in one column on small screens */
   }
 }
+
